@@ -1,0 +1,33 @@
+Bibliotecas utilizadas
+1 - styled-componets
+2 - react-switch
+3 - polished
+
+Criar uma pasta styles/global.ts e uma pasta themes/index.ts
+  ---styles
+    |---themes 
+    |     index.ts
+    |---global.ts 
+
+  criar um aquivo de definição de tipos no typescript
+    styled.d.ts
+  ---styles
+    |---themes 
+    |     index.ts
+    |---global.ts 
+    |---styled.d.ts 
+
+ OBS: IMPORTANT antes de sobresscrever um module é preciso importa o modulo antes
+
+
+No tsconfig.json  passar  para o typescript que o styled.d.ts deve ser compilado
+ add ao final informando o caminho do arquivo.
+ 
+  "files" : [
+    "src/styles/styled.d.ts"
+  ]
+
+
+
+Links
+  --- Coolors.co  
